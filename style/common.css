@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+}
+
+.shadow {
+    border: 1px solid #f3f3f3;
+    background: #fff;
+    box-shadow: 10px 10px 24px #eaebef, -10px -10px 24px #ffffff;
+}
+
+.m-30 {
+    margin: 30px auto;
+}
+
+.ml-8 {
+    margin-left: 8%;
+}
+
+.p-40 {
+    padding: 40px 0;
+}
+
+.p-all-20 {
+    padding: 20px;
+}
+
+.exact-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brdr {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #454545;
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.top-nav {
+    position: relative;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0;
+    padding: 10px;
+    border: 1px solid #f3f3f3;
+    background: #fff;
+    box-shadow: 10px 10px 24px #eaebef, -10px -10px 24px #ffffff;
+}
+
+.nav-ul li {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.nav-ul>li:hover {
+    background: #673de6;
+}
+
+.nav-ul>li:hover a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-ul li a {
+    color: rgb(35, 12, 55);
+}
+
+.intro {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1fr, 3);
+    grid-template-rows: repeat(1fr, 2);
+    grid-template-areas: "asd sec" "asd art";
+}
+
+.asd {
+    grid-area: asd;
+}
+
+.art {
+    grid-area: art;
+}
+
+.sec {
+    grid-area: sec;
+}

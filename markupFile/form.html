@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <!-- common css -->
+    <link rel="stylesheet" href="../style/common.css" />
+
+    <!-- form css -->
+    <link rel="stylesheet" href="../style/form.css" class="css" />
+</head>
+
+<body>
+    <header class="header-area">
+        <div class="container">
+            <h2 class="intro m-30">HTML 5 cemantic tag form page</h2>
+        </div>
+    </header>
+    <nav class="top-nav">
+        <div class="container">
+            <ul class="nav-ul">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./table.html">Table</a></li>
+                <li><a href="">Form</a></li>
+                <li><a href="./dropdown.html">dropdown</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="exact-center shadow p-all-20 container">
+        <h1 class="primary">Hello Feuture Rockster, You can Singup Here!</h1>
+    </header>
+    <main class="container p-all-20">
+        <form action="#" class="p-all-20 shadow m-30 singUP" id="singupForm">
+            <!-- fname -->
+            <label for="fName" class="ml-8">First Name</label>
+            <input class="common-input" type="text" name="firstName" id="fName" placeholder="Enter You First Name" />
+            <!-- last name -->
+            <label for="lName" class="ml-8">Last Name</label>
+            <input class="common-input" type="text" name="lasttName" id="lName" placeholder="Enter You Last Name" />
+            <!-- email -->
+            <label for="mail" class="ml-8">Email</label>
+            <input class="common-input" type="email" name="email" id="mail" placeholder="Enter Email Address" />
+            <!-- password -->
+            <label for="password" class="ml-8">password</label>
+            <input class="common-input" type="password" name="password" id="password" placeholder="Enter your password" />
+            <!-- mobile number -->
+            <label for="mNumber" class="ml-8">Mobile Number</label>
+            <input class="common-input" type="tel" name="mobileNumber" id="mNumber" placeholder="Enter your Mobile Number" />
+            <!-- select -->
+            <label for="course" class="ml-8">Select Your Couse</label>
+            <select class="sel" name="course" id="course" form="singupForm">
+          <option class="opt" value="Complete Web Development">
+            Complete Web Development
+          </option>
+          <option class="opt" value="phitron">
+            Become a better programmer with Phitron
+          </option>
+        </select>
+            <!-- male -->
+            <div class="ml-8">
+                <p class="instruction">Choose your Gender</p>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label><br />
+                <!-- female -->
+
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="css">Female</label><br />
+                <!-- rather to say -->
+                <input type="radio" id="ratherToSay" name="gender" value="ratherToSay" />
+                <label for="javascript">Rather To Say</label><br />
+
+                <input type="checkbox" id="terms" />
+                <label for="rerms" class="instruction">
+            agree terms and condisions</label
+          >
+          <br />
+          <div class="center">
+            <button type="submit" class="common-button">Singup</button>
+            <button type="reset" class="common-button">Reset</button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer class="exact-center shadow p-all-20 m-30 brder">
+      <h2 class="brdr">Footer area with Footer tag</h2>
+    </footer>
+  </body>
+</html>

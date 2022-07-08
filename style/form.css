@@ -1,0 +1,64 @@
+.common-input {
+    display: block;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background: #eaebefc2;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.primary {
+    color: #673de6;
+}
+
+.singUP {
+    max-width: 60%;
+    margin: auto;
+}
+
+::placeholder,
+.instruction {
+    color: #090338;
+    font-weight: 600;
+}
+
+.sel {
+    display: block;
+    border-radius: 5px;
+    width: 85%;
+    margin: 10px auto;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: #673de6;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.opt {
+    font-size: 18px;
+    background: rgb(249, 235, 235);
+    color: rgb(21, 11, 58);
+    margin: 10px;
+    padding: 10px;
+}
+
+.common-button {
+    border: none;
+    padding: 10px 25px;
+    outline: none;
+    margin: 10px;
+    background-color: #673de6;
+    color: #ebe0e0;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}

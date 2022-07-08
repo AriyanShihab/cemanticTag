@@ -1,0 +1,26 @@
+.dropdown {
+    position: absolute;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: #673de6;
+    color: #fff;
+    top: 40px;
+    min-width: 150px;
+}
+
+.dropdown-parent {
+    position: relative;
+}
+
+.dropdown-parent li:hover a {
+    color: rgb(16, 17, 55);
+}
+
+.dropdown-parent:hover .dropdown {
+    min-height: fit-content;
+    max-height: 400px;
+    min-width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
